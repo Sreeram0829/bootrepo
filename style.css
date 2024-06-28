@@ -1,0 +1,147 @@
+   html{
+    height:2500px;
+    width:4000px;
+    background-color: aliceblue;
+
+   } body{
+    height:1300px;
+    width:1500px;
+    background-image:url("https://www.suntiros.com/wp-content/uploads/2017/01/Allu-Arjun-Body-Images-HD.jpg");
+    background-repeat: no-repeat;
+    background-position:top right;
+    background-size: 490px 680px;
+    span {
+    color: brown;
+    }
+}
+
+h1{
+    width: 1000px;
+    height: 30px;
+    color:black;
+    font-weight:bold;
+    font-style:italic;
+    font-variant:captalize;
+    font-family:robotic;
+    text-align:center;
+    text-transform:capitalize;
+    text-decoration:underline;
+    background-color: rgb(211, 236, 175);
+}
+p {
+    width: 800px;
+    height:500px;
+    color:black;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight:normal;
+    font-style:italic;
+    margin:90px 90px 80px 90px;
+    text-align:justify;
+    background-color:greenyellow;
+    background-position: top left;
+    background-size: 50px;
+    padding:30px;
+    border:15px dotted yellow;
+    line-height:28px;
+    
+    
+
+}
+ul {
+    text-align: justify;
+    list-style-type: square;
+    color: black;
+    b {
+    color:black;
+    font-weight:bold;
+    };
+    
+}
+h2 {
+    
+    width:800px;
+    height:30px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    background-color:pink;
+    background-size: 50px;
+}
+    
+a :hover{
+color:red;
+text-decoration: none;
+text-align: center;
+background-color: orange;
+display:inline-block;
+padding:2.2em;
+}
+a :active{
+color:green;
+text-decoration: none;
+text-align: center;
+background-color: orange;
+display:inline-block;
+padding:2.2em;
+}
+a:visited{
+color:pink;
+text-decoration: none;
+text-align: center;
+background-color: orange;
+display:inline-block;
+padding:2.2em;
+}
+div{
+    color: blue;
+}
+#sree{
+    color:red;
+}
+.Ram{
+    color:blue;
+}
+.Reddy {
+    color:brown;
+}
+.ram{
+    color:aquamarine;
+}
+.reddy{
+    color: aqua;
+}
+.flex{
+    display: flex;
+    background-color: yellow;
+}
+.a{
+    width: 300px;
+    height: 250px;
+    background-color:red;
+    flex-grow: 3;
+    flex-shrink: 3;
+
+}
+.b{
+    width: 300px;
+    height: 250px;
+    background-color: blue;
+    flex-grow:3;
+    flex-shrink: 3;
+}
+.c{
+    width: 300x;
+    height: 250px;
+    background-color: green;
+    flex-grow:3;
+    flex-shrink: 3;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}

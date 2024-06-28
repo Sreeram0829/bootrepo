@@ -1,0 +1,164 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2>Dropdown</h1>
+    <!--DROPDOWN button-->
+    <div class="container">
+        <div class="dropdown">                                            <!--dropdown is belong js which is used add button with list-->
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">      
+                Dropdown Button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownButton">
+                <a href="#" class="dropdown-item">Menu item 1</a>
+                <a href="#" class="dropdown-item">Menu item 2</a>
+                <a href="#" class="dropdown-item">Menu item 3</a>
+            </div>
+        </div>
+    </div>
+    <br><hr>
+
+
+
+    <h3>Input-group</h3>
+    <!--input-group is used to give input in box by using place holder-->
+        <div class="input-group input-group-sm">             <!--input-sm denotes size-->
+        <div class="input-group-prepend">                <!--prepend is left -->
+        <span class="input-group-text">$</span>           
+        </div>
+        <input class="form-control" type="text" placeholder="Enter Amount">
+        <div class="input-group-append">
+        <span class="input-group-text">$</span>           
+        </div>
+    </div>
+    <div class="input-group ">
+        <input class="form-control" type="text" placeholder="Search Here">   <!--placeholder gives the input name-->
+        <div class="input-group-append">                   <!--append=right-->
+        <button class="btn btn-success" >Search</button>
+        </div>
+    </div><br><hr>
+
+
+      
+    <h3>Jumbotron</h3>
+    <!--Jumbotron--> 
+    <!--A jumbotron indicates a big box for calling extra attention to some special content or information. A jumbotron is displayed as a grey box with rounded corners. It also enlarges the font sizes of the text inside it.-->
+    <div class="jumbotron">
+        <h1 class="display-4">This is a heading</h1> 
+        <p class="lead">This is a description about heading</p> 
+        <a class="btn btn-warning" href="#">Click here</a>  
+        </div><br><hr>
+    
+    <h3>Cards</h3>
+    <!--Cards-->
+    <!--create card like structure-->
+    <div class="card" style="width: 18rem">                <!--rem = relative em-->
+        <img class="card-img-top" src="https://th.bing.com/th/id/OIP.jWVw6oOY0GMtYRUVHSoLMgAAAA?rs=1&pid=ImgDetMain" >
+        <!--add images on top or bottom-->
+        <div class="card-body">                             <!--gives body-->
+           <h5 class="class="card-title"">iphone13 pro</h5> <!--give title to the card-->
+           <h6 class="card-subtitle">$1500</h6>             <!--give any sub title-->
+           <p class="card-text">Unstopable and secure</p>   <!--give any text-->
+           <a class="class-link" href="#">learn more</a>    <!--for adding any link-->
+           
+        </div>
+    </div><br><hr>
+    
+    
+    <h3>Card list Grps</h3>
+    <!--Card list Grps-->
+    <div class="card" style="width: 18rem">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Faster chips</li>
+            <li class="list-group-item">Larger sizes for the "Pro" line, 6.3" and 6.9"</li>
+            <li class="list-group-item">Camera improvements, including periscope zoom lens</li>
+            <li class="list-group-item">New "capture" button and action button</li>
+        </ul><br><hr>
+        
+
+        <h4>Card Header,ALignment,footer</h4>
+        <!--Card Header,ALignment,footer-->
+        <div class="card text-center" style="width: 18rem"> <!--decides text place center,right and left-->
+        <div class="card-header">                           <!--The.card-header class adds a heading to the card and-->
+        Heading                                             
+        </div>
+        <div class="card-body">
+            <h5 class="Title">Title</h5>
+            <p class="card-text">This is some text</p>
+        </div>
+        <div class="card-footer">                 <!-- the .card-footer class adds a footer to the card-->
+            This is footer
+        </div>
+        </div><br><hr>
+
+        
+      <h3>Card Image Overlay</h3>
+      <!--using .container with "".card-bg-color text-color"  and for css style add width-->
+        <div class="container">
+            <div class="card bg-dark text-white" style="width:30rem">
+                <img class="card-img" src="https://th.bing.com/th/id/OIP.jWVw6oOY0GMtYRUVHSoLMgAAAA?rs=1&pid=ImgDetMain">
+                <div class="card-img-overlay">   <!--after adding image with .img add .img-overlay to write any kind of text-->
+                    <h4 class="card-title">Add title</h4> 
+                    <p class="card-text">Add text</p>
+                </div>
+                <h4 class="card-title">Add title</h4> 
+                    <p class="card-text">Add text</p>
+            </div>
+        </div><br><hr>
+
+        <!--card colors-->
+        <h4>Card colors</h4>          
+        <div class="container">                                                        
+            <div class="card text-white bg-success mb-3" style="max-width:18rem;">  <!--mb is used for size-->
+            <div class="card-header">Header</div>
+            <div class="card-body">
+            <h5 class="card-title">Title</h5>
+            <p class="card-text">Add Text</p>
+        </div>
+        </div>
+    </div><hr><br>
+
+
+     <!--Card group and deck-->
+     <h4>Card group and deck</h4>
+    <div class="container">
+        <div class="card-deck">   <!--deck is used for space-->
+        <div class="card-group">  <!--group is used to make box-->
+            <div class="card bg-info"> <!--adding .card to bg-color-->
+               <div class="card-header">Header</div>
+               <div class="card-body">
+                <h5 class="card-title">Title</h5>
+            <p class="card-text">Add Text</p>
+        </div>
+               </div>
+            </div>
+            
+        
+        <div class="card-group">
+            <div class="card bg-success">
+               <div class="card-header">Header</div>
+               <div class="card-body">
+                <h5 class="card-title">Title</h5>
+            <p class="card-text">Add Text</p>
+        </div>
+               </div>
+            </div>
+        
+        <div class="card-group">
+            <div class="card bg-danger">
+               <div class="card-header">Header</div>
+               <div class="card-body">
+                <h5 class="card-title">Title</h5>
+            <p class="card-text">Add Text</p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+    </body>
+    </html>
